@@ -73,6 +73,11 @@ img {
 
 .project-list li {
   padding: 3px;
+  cursor: pointer;
+}
+
+.project-list li:hover {
+  color: darkred;
 }
 
 footer {
