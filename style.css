@@ -21,6 +21,14 @@ main {
   padding: 3px;
   list-style-type: none;
   background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .nav-list {
+    display: block;
+  }
 }
 
 /*Nav Elements*/
@@ -45,6 +53,17 @@ nav a:hover {
   color: darkgray;
 }
 
+img {
+  margin: 0 auto;
+}
+
+@media (min-width: 200px) {
+  img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
 /*Projects list Container and List Items*/
 .project-list {
   list-style-type: none;
@@ -59,4 +78,6 @@ nav a:hover {
 footer {
   background-color: black;
   color: white;
+  width: 80%;
+  margin: 0 auto;
 }
